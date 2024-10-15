@@ -18,7 +18,8 @@ import {
 import io from 'socket.io-client';
 import axios from 'axios';
 
-const url = "http://localhost:5000"
+// const url = "http://localhost:5000"
+const url = "https://team-collab-hub.onrender.com"
 // const socket = io('https://team-collobration-hub.onrender.com');
 const socket = io(url);
 
