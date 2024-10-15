@@ -21,7 +21,8 @@ import {
 import { Add as AddIcon } from '@mui/icons-material';
 import axios from 'axios'; // Ensure you have axios installed for API calls
 
-const url = "http://localhost:5000"
+// const url = "http://localhost:5000"
+const url = "https://team-collab-hub.onrender.com"
 
 const UserManager = () => {
     const [users, setUsers] = useState([]);
